@@ -45,8 +45,8 @@ const Product = props => {
 Product.propTypes = {
   id: PropTypes.number,
   name: PropTypes.string,
-  colors: PropTypes.string,
-  sizes: PropTypes.string,
+  colors: PropTypes.array,
+  sizes: PropTypes.array,
   basePrice: PropTypes.number,
 };
 

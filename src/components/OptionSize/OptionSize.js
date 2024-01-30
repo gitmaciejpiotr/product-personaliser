@@ -7,7 +7,6 @@ const OptionSize = props => (
 );
 
 OptionSize.propTypes = {
-    key: PropTypes.string,
     name: PropTypes.string,
     currentSize: PropTypes.string,
     setCurrentSize: PropTypes.func,
